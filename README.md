@@ -17,7 +17,9 @@ Solução comum para um problema recorrente ao utilizar o paradigma da orientaç
     - Aplicação de um método concreto na classe "mãe"
     - Ajuda no reaproveitamento de código
     - Extrai o que for comum nas classes "filhas" para a classe "mãe"
-- State
+- [State](https://refactoring.guru/design-patterns/state)
+    - Utilizado quando á a transição de estados (ex: APROVADO, REPROVADO, FINALIZADO)
+    - Parecido com o Strategy
 - Command
 - Observer
 

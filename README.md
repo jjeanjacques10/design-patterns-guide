@@ -1,6 +1,6 @@
 # Design Patterns Guide
 
-Guia sobre Design Patterns.
+Guia sobre Design Patterns criado a partir dos meus estudos sobre o tema.
 
 ### O que é?
 

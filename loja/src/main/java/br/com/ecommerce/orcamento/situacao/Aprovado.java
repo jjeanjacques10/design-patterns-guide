@@ -1,6 +1,5 @@
 package br.com.ecommerce.orcamento.situacao;
 
-import br.com.ecommerce.orcamento.DomainException;
 import br.com.ecommerce.orcamento.Orcamento;
 
 import java.math.BigDecimal;

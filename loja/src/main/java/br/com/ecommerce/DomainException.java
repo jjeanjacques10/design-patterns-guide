@@ -1,4 +1,4 @@
-package br.com.ecommerce.orcamento;
+package br.com.ecommerce;
 
 public class DomainException extends RuntimeException {
 

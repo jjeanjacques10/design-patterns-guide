@@ -7,12 +7,16 @@ Guia sobre Design Patterns criado a partir dos meus estudos sobre o tema.
 Solução comum para um problema recorrente ao utilizar o paradigma da orientação a objectos.
 
 - [Strategy](https://refactoring.guru/design-patterns/strategy)
-  - Evita o uso excessivo de condicionais
-  - Código mais coeso
-  - Auxilia a implementar o conceito de Aberto-Fechado (Open-Closed Principle) do SOLID
+    - Evita o uso excessivo de condicionais
+    - Código mais coeso
+    - Auxilia a implementar o conceito de Aberto-Fechado (Open-Closed Principle) do SOLID
 - [Chain of Responsibility](https://refactoring.guru/design-patterns/chain-of-responsibility)
-  - É um padrão de design comportamental que permite que você passe solicitações ao longo de uma cadeia de manipuladores
-- Template Method
+    - É um padrão de design comportamental que permite que você passe solicitações ao longo de uma cadeia de
+      manipuladores
+- [Template Method](https://refactoring.guru/design-patterns/template-method)
+    - Aplicação de um método concreto na classe "mãe"
+    - Ajuda no reaproveitamento de código
+    - Extrai o que for comum nas classes "filhas" para a classe "mãe"
 - State
 - Command
 - Observer

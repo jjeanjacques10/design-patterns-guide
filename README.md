@@ -6,6 +6,8 @@ Guia sobre Design Patterns criado a partir dos meus estudos sobre o tema.
 
 Solução comum para um problema recorrente ao utilizar o paradigma da orientação a objectos.
 
+## Padrões Comportamentais
+
 ### [Strategy](https://refactoring.guru/design-patterns/strategy)
 
 - Evita o uso excessivo de condicionais
@@ -69,6 +71,14 @@ Solução comum para um problema recorrente ao utilizar o paradigma da orientaç
 <summary>Diagrama Observer</summary>
 <img src="https://refactoring.guru/images/patterns/diagrams/observer/solution2-en.png" width="500">
 </details >  
+
+## Padrões Estruturais
+
+- Adapter
+- Decorator
+- Composite
+- Facade
+- Proxy
 
 ## Projeto
 

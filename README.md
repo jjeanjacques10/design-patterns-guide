@@ -2,34 +2,79 @@
 
 Guia sobre Design Patterns criado a partir dos meus estudos sobre o tema.
 
-### O que é?
+## O que é?
 
 Solução comum para um problema recorrente ao utilizar o paradigma da orientação a objectos.
 
-- **[Strategy](https://refactoring.guru/design-patterns/strategy)**
-    - Evita o uso excessivo de condicionais
-    - Código mais coeso
-    - Auxilia a implementar o conceito de Aberto-Fechado (Open-Closed Principle) do SOLID
-- **[Chain of Responsibility](https://refactoring.guru/design-patterns/chain-of-responsibility)**
-    - É um padrão de design comportamental que permite que você passe solicitações ao longo de uma cadeia de
-      manipuladores
-- **[Template Method](https://refactoring.guru/design-patterns/template-method)**
-    - Aplicação de um método concreto na classe "mãe"
-    - Ajuda no reaproveitamento de código
-    - Extrai o que for comum nas classes "filhas" para a classe "mãe"
-- **[State](https://refactoring.guru/design-patterns/state)**
-    - Utilizado quando á a transição de estados (ex: APROVADO, REPROVADO, FINALIZADO)
-    - Parecido com o Strategy
-- **[Command](https://refactoring.guru/design-patterns/command)**
-    - Transforma uma solicitação em um objeto independente que contém todas as informações sobre a solicitação
-    - Separa os dados das funcionalidades quando necessário
-    - Muito utilizado no padrão de arquitetura Domain Driven Design
-- **[Observer](https://refactoring.guru/design-patterns/observer)**
-    - Permite definir um mecanismo de inscrição para notificar vários objetos sobre quaisquer eventos que acontecem ao objeto que eles estão observando
-    - Tenho observadores que estão observando uma ação que será executada
-    - Ajuda a manter a coesão
+### [Strategy](https://refactoring.guru/design-patterns/strategy)
 
-### Fontes
+- Evita o uso excessivo de condicionais
+- Código mais coeso
+- Auxilia a implementar o conceito de Aberto-Fechado (Open-Closed Principle) do SOLID
+
+<details >
+<summary>Diagrama Strategy</summary>
+<img src="https://refactoring.guru/images/patterns/diagrams/strategy/solution.png" width="500">
+</details >  
+
+### [Chain of Responsibility](https://refactoring.guru/design-patterns/chain-of-responsibility)
+
+- É um padrão de design comportamental que permite que você passe solicitações ao longo de uma cadeia de manipuladores
+
+<details >
+<summary>Diagrama Chain of Responsibility</summary>
+<img src="https://refactoring.guru/images/patterns/diagrams/chain-of-responsibility/example-en.png" width="500">
+</details >  
+
+### [Template Method](https://refactoring.guru/design-patterns/template-method)
+
+- Aplicação de um método concreto na classe "mãe"
+- Ajuda no reaproveitamento de código
+- Extrai o que for comum nas classes "filhas" para a classe "mãe"
+
+<details >
+<summary>Diagrama Template Method</summary>
+<img src="https://refactoring.guru/images/patterns/diagrams/template-method/structure.png" width="500">
+</details >  
+
+### [State](https://refactoring.guru/design-patterns/state)
+
+- Utilizado quando á a transição de estados (ex: APROVADO, REPROVADO, FINALIZADO)
+- Lembra o pattern Strategy
+
+<details >
+<summary>Diagrama State</summary>
+<img src="https://refactoring.guru/images/patterns/diagrams/state/solution-en.png" width="500">
+</details >  
+
+### [Command](https://refactoring.guru/design-patterns/command)
+
+- Transforma uma solicitação em um objeto independente que contém todas as informações sobre a solicitação
+- Separa os dados das funcionalidades quando necessário
+- Muito utilizado no padrão de arquitetura Domain Driven Design
+
+<details >
+<summary>Diagrama Command</summary>
+<img src="https://refactoring.guru/images/patterns/diagrams/command/solution3-en.png" width="500">
+</details >  
+
+### [Observer](https://refactoring.guru/design-patterns/observer)
+
+- Permite definir um mecanismo de inscrição para notificar vários objetos sobre quaisquer eventos que acontecem ao
+  objeto que eles estão observando
+- Tenho observadores que estão observando uma ação que será executada
+- Ajuda a manter a coesão
+
+<details >
+<summary>Diagrama Observer</summary>
+<img src="https://refactoring.guru/images/patterns/diagrams/observer/solution2-en.png" width="500">
+</details >  
+
+## Projeto
+
+Exemplos desenvolvidos no projeto [Loja](./loja) neste repositório.
+
+## Fontes
 
 - [Design Patterns em Java](https://cursos.alura.com.br/course/introducao-design-patterns-java)
 - [Podcast Design Patterns](https://cursos.alura.com.br/hipsterstech-design-patterns-hipsters-206-a345)

@@ -6,25 +6,28 @@ Guia sobre Design Patterns criado a partir dos meus estudos sobre o tema.
 
 Solução comum para um problema recorrente ao utilizar o paradigma da orientação a objectos.
 
-- [Strategy](https://refactoring.guru/design-patterns/strategy)
+- **[Strategy](https://refactoring.guru/design-patterns/strategy)**
     - Evita o uso excessivo de condicionais
     - Código mais coeso
     - Auxilia a implementar o conceito de Aberto-Fechado (Open-Closed Principle) do SOLID
-- [Chain of Responsibility](https://refactoring.guru/design-patterns/chain-of-responsibility)
+- **[Chain of Responsibility](https://refactoring.guru/design-patterns/chain-of-responsibility)**
     - É um padrão de design comportamental que permite que você passe solicitações ao longo de uma cadeia de
       manipuladores
-- [Template Method](https://refactoring.guru/design-patterns/template-method)
+- **[Template Method](https://refactoring.guru/design-patterns/template-method)**
     - Aplicação de um método concreto na classe "mãe"
     - Ajuda no reaproveitamento de código
     - Extrai o que for comum nas classes "filhas" para a classe "mãe"
-- [State](https://refactoring.guru/design-patterns/state)
+- **[State](https://refactoring.guru/design-patterns/state)**
     - Utilizado quando á a transição de estados (ex: APROVADO, REPROVADO, FINALIZADO)
     - Parecido com o Strategy
-- [Command](https://refactoring.guru/design-patterns/command)
+- **[Command](https://refactoring.guru/design-patterns/command)**
     - Transforma uma solicitação em um objeto independente que contém todas as informações sobre a solicitação
     - Separa os dados das funcionalidades quando necessário
     - Muito utilizado no padrão de arquitetura Domain Driven Design
-- Observer
+- **[Observer](https://refactoring.guru/design-patterns/observer)**
+    - Permite definir um mecanismo de inscrição para notificar vários objetos sobre quaisquer eventos que acontecem ao objeto que eles estão observando
+    - Tenho observadores que estão observando uma ação que será executada
+    - Ajuda a manter a coesão
 
 ### Fontes
 

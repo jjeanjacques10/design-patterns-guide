@@ -20,7 +20,10 @@ Solução comum para um problema recorrente ao utilizar o paradigma da orientaç
 - [State](https://refactoring.guru/design-patterns/state)
     - Utilizado quando á a transição de estados (ex: APROVADO, REPROVADO, FINALIZADO)
     - Parecido com o Strategy
-- Command
+- [Command](https://refactoring.guru/design-patterns/command)
+    - Transforma uma solicitação em um objeto independente que contém todas as informações sobre a solicitação
+    - Separa os dados das funcionalidades quando necessário
+    - Muito utilizado no padrão de arquitetura Domain Driven Design
 - Observer
 
 ### Fontes

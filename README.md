@@ -74,11 +74,22 @@ Solução comum para um problema recorrente ao utilizar o paradigma da orientaç
 
 ## Padrões Estruturais
 
-- Adapter
-- Decorator
-- Composite
-- Facade
-- Proxy
+### [Adapter](https://refactoring.guru/design-patterns/adapter)
+
+- Ponte entre o mundo externo e a nossa aplicação
+- Facilita na hora de migração uma integração externa
+- Preferir abastrações ao invés de implementações
+- Seguir o princípio do **SOLID** (Dependency Inversion Principle, a letra **D**)
+
+<details >
+<summary>Diagrama Adapter</summary>
+<img src="https://refactoring.guru/images/patterns/diagrams/adapter/structure-class-adapter.png" width="500">
+</details >  
+
+### Decorator
+### Composite
+### Facade
+### Proxy
 
 ## Projeto
 

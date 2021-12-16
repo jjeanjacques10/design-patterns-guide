@@ -86,7 +86,17 @@ Solução comum para um problema recorrente ao utilizar o paradigma da orientaç
 <img src="https://refactoring.guru/images/patterns/diagrams/adapter/structure-class-adapter.png" width="500">
 </details >  
 
-### Decorator
+### [Decorator](https://refactoring.guru/design-patterns/decorator)
+
+- Permite anexar novos comportamentos a objetos, colocando esses objetos dentro de objetos de invólucro especiais que contêm os comportamentos
+- Adiciona comportamento no objeto sem altera-lo
+- Torna o código mais flexível e dinâmico
+
+<details >
+<summary>Diagrama Decorator</summary>
+<img src="https://refactoring.guru/images/patterns/diagrams/decorator/solution2.png" width="500">
+</details >  
+
 ### Composite
 ### Facade
 ### Proxy

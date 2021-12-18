@@ -91,13 +91,24 @@ Solução comum para um problema recorrente ao utilizar o paradigma da orientaç
 - Permite anexar novos comportamentos a objetos, colocando esses objetos dentro de objetos de invólucro especiais que contêm os comportamentos
 - Adiciona comportamento no objeto sem altera-lo
 - Torna o código mais flexível e dinâmico
+- Adiciona comportamento em tempo de execução
 
 <details >
 <summary>Diagrama Decorator</summary>
 <img src="https://refactoring.guru/images/patterns/diagrams/decorator/solution2.png" width="500">
 </details >  
 
-### Composite
+### [Composite](https://refactoring.guru/design-patterns/composite)
+
+-  permite compor objetos em estruturas de árvore e, em seguida, trabalhar com essas estruturas como se fossem objetos individuais
+- Um objeto compõe o outro
+- Compondo por meio de uma estrutura de árvore
+
+<details >
+<summary>Diagrama Composite</summary>
+<img src="https://refactoring.guru/images/patterns/diagrams/composite/example.png" width="500">
+</details >  
+
 ### Facade
 ### Proxy
 

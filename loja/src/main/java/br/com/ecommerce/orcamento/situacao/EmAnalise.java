@@ -19,4 +19,9 @@ public class EmAnalise extends SituacaoOrcamento {
     public void finalizar(Orcamento orcamento) {
         orcamento.setSituacao(new Finalizado());
     }
+
+    @Override
+    public void reprovar(Orcamento orcamento) {
+        orcamento.setSituacao(new Reprovado());
+    }
 }

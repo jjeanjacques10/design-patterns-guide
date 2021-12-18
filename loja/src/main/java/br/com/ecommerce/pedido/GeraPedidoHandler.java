@@ -1,5 +1,6 @@
 package br.com.ecommerce.pedido;
 
+import br.com.ecommerce.orcamento.ItemOrcamento;
 import br.com.ecommerce.orcamento.Orcamento;
 import br.com.ecommerce.pedido.acao.AcaoAposGerarPedido;
 
@@ -15,7 +16,8 @@ public class GeraPedidoHandler {
     }
 
     public void execute(GeraPedido dados) {
-        Orcamento orcamento = new Orcamento(dados.getValorOrcamento(), dados.getQuantidadeItens());
+        Orcamento orcamento = new Orcamento();
+        orcamento.adicionarItem(new ItemOrcamento(dados.getValorOrcamento()));
         Pedido pedido = new Pedido(dados.getCliente(), LocalDateTime.now(), orcamento);
 
         acoes.forEach(a -> a.executarAcao(pedido));

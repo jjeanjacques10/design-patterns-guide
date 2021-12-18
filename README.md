@@ -109,7 +109,18 @@ Solução comum para um problema recorrente ao utilizar o paradigma da orientaç
 <img src="https://refactoring.guru/images/patterns/diagrams/composite/example.png" width="500">
 </details >  
 
-### Facade
+### [Facade](https://refactoring.guru/design-patterns/facade)
+
+- Padrão de design estrutural que fornece uma interface simplificada para uma biblioteca, uma estrutura ou qualquer outro conjunto complexo de classes
+- Evitar de exportar a complexidade para o cliente
+- Encapsular a chamada a classes internas de um objeto
+- Melhora o acoplamento
+
+<details >
+<summary>Diagrama Composite</summary>
+<img src="https://refactoring.guru/images/patterns/diagrams/composite/example.png" width="500">
+</details > 
+
 ### Proxy
 
 ## Projeto

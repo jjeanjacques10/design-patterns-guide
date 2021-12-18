@@ -3,9 +3,9 @@ package br.com.ecommerce;
 import br.com.ecommerce.pedido.GeraPedido;
 import br.com.ecommerce.pedido.GeraPedidoHandler;
 import br.com.ecommerce.pedido.acao.EnviarEmailPedido;
+import br.com.ecommerce.pedido.acao.LogDePedido;
 import br.com.ecommerce.pedido.acao.SalvarNoBancoPedido;
 
-import java.lang.reflect.Array;
 import java.math.BigDecimal;
 import java.util.Arrays;
 
@@ -21,9 +21,10 @@ public class TestesPedidos {
 
         /* Observer */
         GeraPedidoHandler handler = new GeraPedidoHandler(
-                Arrays.asList(new SalvarNoBancoPedido(), new EnviarEmailPedido())
+                Arrays.asList(new SalvarNoBancoPedido(), new EnviarEmailPedido(), new LogDePedido())
         );
 
+        /* Facade */
         handler.execute(gerador);
     }
 

@@ -121,7 +121,17 @@ Solução comum para um problema recorrente ao utilizar o paradigma da orientaç
 <img src="https://refactoring.guru/images/patterns/diagrams/composite/example.png" width="500">
 </details > 
 
-### Proxy
+### [Proxy](https://refactoring.guru/design-patterns/proxy)
+
+- Permite fornecer um substituto ou espaço reservado para outro objeto.
+- Controla o acesso ao objeto original, permitindo que você execute algo antes ou depois que a solicitação chega ao objeto original
+- Auxilia a termos mais performance e segurança
+- É utilizado no Hibernate (Lazy)
+
+<details >
+<summary>Diagrama Composite</summary>
+<img src="https://refactoring.guru/images/patterns/diagrams/proxy/example.png" width="500">
+</details > 
 
 ## Projeto
 

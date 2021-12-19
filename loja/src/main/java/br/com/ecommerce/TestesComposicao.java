@@ -2,6 +2,7 @@ package br.com.ecommerce;
 
 import br.com.ecommerce.orcamento.ItemOrcamento;
 import br.com.ecommerce.orcamento.Orcamento;
+import br.com.ecommerce.orcamento.OrcamentoProxy;
 
 import java.math.BigDecimal;
 
@@ -16,6 +17,13 @@ public class TestesComposicao {
         novo.adicionarItem(new ItemOrcamento(new BigDecimal("500")));
         novo.adicionarItem(antigo);
 
-        System.out.println(novo.getValor());
+        /* Proxy */
+        OrcamentoProxy proxy = new OrcamentoProxy(novo);
+
+        System.out.println(proxy.getValor()); // Demora um pouco para fazer o cache
+        System.out.println(proxy.getValor());
+        System.out.println(proxy.getValor());
+        System.out.println(proxy.getValor());
+        System.out.println(proxy.getValor());
     }
 }

@@ -88,7 +88,8 @@ Solução comum para um problema recorrente ao utilizar o paradigma da orientaç
 
 ### [Decorator](https://refactoring.guru/design-patterns/decorator)
 
-- Permite anexar novos comportamentos a objetos, colocando esses objetos dentro de objetos de invólucro especiais que contêm os comportamentos
+- Permite anexar novos comportamentos a objetos, colocando esses objetos dentro de objetos de invólucro especiais que
+  contêm os comportamentos
 - Adiciona comportamento no objeto sem altera-lo
 - Torna o código mais flexível e dinâmico
 - Adiciona comportamento em tempo de execução
@@ -100,7 +101,8 @@ Solução comum para um problema recorrente ao utilizar o paradigma da orientaç
 
 ### [Composite](https://refactoring.guru/design-patterns/composite)
 
--  permite compor objetos em estruturas de árvore e, em seguida, trabalhar com essas estruturas como se fossem objetos individuais
+- permite compor objetos em estruturas de árvore e, em seguida, trabalhar com essas estruturas como se fossem objetos
+  individuais
 - Um objeto compõe o outro
 - Compondo por meio de uma estrutura de árvore
 
@@ -111,7 +113,8 @@ Solução comum para um problema recorrente ao utilizar o paradigma da orientaç
 
 ### [Facade](https://refactoring.guru/design-patterns/facade)
 
-- Padrão de design estrutural que fornece uma interface simplificada para uma biblioteca, uma estrutura ou qualquer outro conjunto complexo de classes
+- Padrão de design estrutural que fornece uma interface simplificada para uma biblioteca, uma estrutura ou qualquer
+  outro conjunto complexo de classes
 - Evitar de exportar a complexidade para o cliente
 - Encapsular a chamada a classes internas de um objeto
 - Melhora o acoplamento
@@ -124,7 +127,8 @@ Solução comum para um problema recorrente ao utilizar o paradigma da orientaç
 ### [Proxy](https://refactoring.guru/design-patterns/proxy)
 
 - Permite fornecer um substituto ou espaço reservado para outro objeto.
-- Controla o acesso ao objeto original, permitindo que você execute algo antes ou depois que a solicitação chega ao objeto original
+- Controla o acesso ao objeto original, permitindo que você execute algo antes ou depois que a solicitação chega ao
+  objeto original
 - Auxilia a termos mais performance e segurança
 - É utilizado no Hibernate (Lazy)
 
@@ -142,6 +146,7 @@ Exemplos desenvolvidos no projeto [Loja](./loja) neste repositório.
 - [Design Patterns em Java](https://cursos.alura.com.br/course/introducao-design-patterns-java)
 - [Podcast Design Patterns](https://cursos.alura.com.br/hipsterstech-design-patterns-hipsters-206-a345)
 - [Livro Design Patterns](https://www.amazon.com.br/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=asc_df_0201633612/?tag=googleshopp00-20&linkCode=df0&hvadid=379735814613&hvpos=&hvnetw=g&hvrand=6375507411940335659&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001773&hvtargid=pla-395340045790&psc=1)
+- [Refactoring Guru](https://refactoring.guru/)
 
 ---
 Developed by [Jean Jacques](https://github.com/jjeanjacques10)
